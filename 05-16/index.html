@@ -8,9 +8,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
+        <p>Hello, testing jQuery</p>
 
         <script type="text/javascript">
-        
+            if(typeof jQuery == undefined ){
+                alert("jquery not installed properly");
+            } else {
+                alert ("jquery installed properly");
+            }
         
         </script> 
     </body>
