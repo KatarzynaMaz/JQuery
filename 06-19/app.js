@@ -1,6 +1,7 @@
 
 
-$("div").click(function(){
-    alert("a div was clicked");
+$("#circle").click(function(){
+    $("p").html("This text has changed");
+    
 
 })
