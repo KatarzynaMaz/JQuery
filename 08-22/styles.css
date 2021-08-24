@@ -14,3 +14,16 @@
 P {
     font-size: 2rem;
 }
+#button {
+    height: 20px;
+    width: 50;
+    background-color: green;
+}
+#button2 {
+    height: 20px;
+    width: 50;
+    background-color: orange;
+}
+#hidden {
+    display: none;
+}

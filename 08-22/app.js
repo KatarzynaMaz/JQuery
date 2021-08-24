@@ -26,3 +26,16 @@ $("div").click(function(){
 $("div").click(function(){
     $(this).fadeOut();
 })
+
+//create a paragraph with some text and a button
+//when the button is clicked,the text fades out.
+$("#button").click(function(){
+    $("p").fadeOut()
+})
+
+//Create a text and a button, the text is inicially hidden but apprears 
+//when the button is clicked. 
+
+$("#button2").click(function(){
+    $("#hidden").fadeIn();
+})
