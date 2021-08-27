@@ -23,19 +23,31 @@ $("div").click(function(){
 })*/
 
 //click on a shape and that particular shape fade out
-$("div").click(function(){
+/*$("div").click(function(){
     $(this).fadeOut();
-})
+})*/
 
 //create a paragraph with some text and a button
 //when the button is clicked,the text fades out.
-$("#button").click(function(){
-    $("p").fadeOut()
+/   $("#button").click(function(){
+     $("p").fadeOut()
 })
 
 //Create a text and a button, the text is inicially hidden but apprears 
 //when the button is clicked. 
 
-$("#button2").click(function(){
+    $("#button2").click(function(){
     $("#hidden").fadeIn();
+    })
+
+//animate the circle when clicked
+$("#circle").click(function(){
+    $(this).animate({
+        width: "400px",
+        height: "400px",
+        marginLeft: "100px",
+        marginTop: "100px"
+   }, 2000,function(){
+       $(this).css("background-color", "red")
+   });
 })
